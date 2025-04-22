@@ -11,7 +11,7 @@ const CashbackGift = () => {
   const intervalRef = useRef(null);
   const [isHovered, setIsHovered] = useState(false);
   const loopedData = [...Branddata, ...Branddata];
-  const [searchText, setSearchText] = useState('');
+  const [searchText, setSearchText] = useState("");
 
   const fashionCard = {
     Fahion: [
@@ -313,73 +313,73 @@ const CashbackGift = () => {
     Sport: [
       {
         title: "adidas",
-        image: "/images/c50.png",
+        image: "/Images/c50.png",
         offer: "11.10% + coins",
         availability: "Online & Instore",
       },
       {
         title: "Arsenal Football Club",
-        image: "/images/c51.png",
+        image: "/Images/c51.png",
         offer: "10.00% + coins",
         availability: "Online & Instore",
       },
       {
         title: "Decathlon",
-        image: "/images/c52.png",
+        image: "/Images/c52.png",
         offer: "6.50% + coins",
         availability: "Online & Instore",
       },
       {
         title: "Evans Cycles",
-        image: "/images/c53.png",
+        image: "/Images/c53.png",
         offer: "4.00% + coins",
         availability: "Instore & Online",
       },
       {
         title: "Foot Locker",
-        image: "/images/c54.png",
+        image: "/Images/c54.png",
         offer: "9.00% + coins",
         availability: "Instore only",
       },
       {
         title: "Green Chef",
-        image: "/images/c55.png",
+        image: "/Images/c55.png",
         offer: "10.00% + coins",
         availability: "Online only",
       },
       {
         title: "JD Sports",
-        image: "/images/c56.png",
+        image: "/Images/c56.png",
         offer: "8.60% + coins",
         availability: "Online & Instore",
       },
       {
         title: "Leisure Choice Gift Card",
-        image: "/images/c57.png",
+        image: "/Images/c57.png",
         offer: "2.50% + coins",
         availability: "Online only",
       },
       {
         title: "Lululemon",
-        image: "/images/c58.png",
+        image: "/Images/c58.png",
         offer: "5.55% + coins",
         availability: "Instore & Online",
       },
       {
         title: "Sports Direct",
-        image: "/images/c59.png",
+        image: "/Images/c59.png",
         offer: "6.20% + coins",
         availability: "Instore & Online",
       },
       {
         title: "The Golf Gift Card",
-        image: "/images/c60.png",
+        image: "/Images/c60.png",
         offer: "5.60% + coins",
         availability: "Instore & Phone",
       },
       {
         title: "Ticketmaster UK",
-        image: "/images/c61.png",
+        image: "/Images/c61.png",
         offer: "6.60% + coins",
         availability: "Online only",
       },
@@ -387,55 +387,55 @@ const CashbackGift = () => {
     TrevelAndLeisure: [
       {
         title: "Airbnb UK",
-        image: "/images/c62.png",
+        image: "/Images/c62.png",
         offer: "4.70% + coins",
         availability: "Online only",
       },
       {
         title: "AirlineGift",
-        image: "/images/c63.png",
+        image: "/Images/c63.png",
         offer: "7.10% + coins",
         availability: "Online only",
       },
       {
         title: "Butlins by Inspire",
-        image: "/images/c64.png",
+        image: "/Images/c64.png",
         offer: "6.50% + coins",
         availability: "Phone only",
       },
       {
         title: "Buyagift",
-        image: "/images/c65.png",
+        image: "/Images/c65.png",
         offer: "20.00% + coins",
         availability: "Online only",
       },
       {
         title: "Airbnb UK",
-        image: "/images/c66.png",
+        image: "/Images/c66.png",
         offer: "4.70% + coins",
         availability: "Online only",
       },
       {
         title: "AirlineGift",
-        image: "/images/c67.png",
+        image: "/Images/c67.png",
         offer: "7.10% + coins",
         availability: "Online only",
       },
       {
         title: "Butlins by Inspire",
-        image: "/images/c68.png",
+        image: "/Images/c68.png",
         offer: "6.50% + coins",
         availability: "Phone only",
       },
       {
         title: "Buyagift",
-        image: "/images/c69.png",
+        image: "/Images/c69.png",
         offer: "20.00% + coins",
         availability: "Online only",
       },
       {
         title: "Cineworld UK",
-        image: "/images/c80.png",
+        image: "/Images/c80.png",
         offer: "9.60% + coins",
         availability: "Online & Instore",
       },
@@ -482,23 +482,23 @@ const CashbackGift = () => {
       <Categories />
       <Brand />
       <div className="cashbackgrift-search-div">
-      <div className="search-container">
-        <FiSearch className="search-icon" />
-        <input
-          type="text"
-          placeholder="Search offers by brand"
-          className="search-input"
-          value={searchText}
-          onChange={handleSearchChange}
-        />
-      </div>
+        <div className="search-container">
+          <FiSearch className="search-icon" />
+          <input
+            type="text"
+            placeholder="Search offers by brand"
+            className="search-input"
+            value={searchText}
+            onChange={handleSearchChange}
+          />
+        </div>
       </div>
       <div className="categories-popular-brands-container">
         {Object.keys(fashionCard).map((category, categoryIndex) => {
-          const filteredItems = fashionCard[category].filter(item =>
+          const filteredItems = fashionCard[category].filter((item) =>
             item.title.toLowerCase().includes(searchText.toLowerCase())
           );
-          
+
           if (searchText && filteredItems.length === 0) {
             return null;
           }
@@ -512,19 +512,23 @@ const CashbackGift = () => {
               onMouseLeave={() => setIsHovered(false)}
             >
               <div className="categories-popular-brands-container-app">
-                <h1 className="categories-popular-brands-heading">{category}</h1>
+                <h1 className="categories-popular-brands-heading">
+                  {category}
+                </h1>
                 <div className="grid">
-                  {(searchText ? filteredItems : fashionCard[category]).map((item, index) => (
-                    <div key={index} className="fashion-card">
-                      <p className="availability">{item.availability}</p>
-                      <img
-                        src={item.image}
-                        alt={item.title}
-                        className="cashback-logo"
-                      />
-                      <p className="offer">{item.offer}</p>
-                    </div>
-                  ))}
+                  {(searchText ? filteredItems : fashionCard[category]).map(
+                    (item, index) => (
+                      <div key={index} className="fashion-card">
+                        <p className="availability">{item.availability}</p>
+                        <img
+                          src={item.image}
+                          alt={item.title}
+                          className="cashback-logo"
+                        />
+                        <p className="offer">{item.offer}</p>
+                      </div>
+                    )
+                  )}
                 </div>
               </div>
             </div>

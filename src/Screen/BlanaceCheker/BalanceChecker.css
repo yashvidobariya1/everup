@@ -1,0 +1,169 @@
+.gift-card-container {
+  position: relative;
+  min-height: calc(100vh - 106px);
+  width: 100%;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  align-items: center;
+}
+
+/* .gift-card-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/Images/cashbackbg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  opacity: 0.1;
+} */
+
+.BalanceChecker-card {
+  border-radius: 12px;
+  color: white;
+  padding: 12px;
+  width: 350px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.amazon-card {
+  top: 20%;
+  left: 40%;
+}
+
+.tesco-card {
+  top: 35%;
+  left: 30%;
+}
+
+.primark-card {
+  top: 50%;
+  left: 40%;
+}
+
+.balancechecker-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.category-section {
+  margin-bottom: 40px;
+}
+
+.category-section h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.logo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.logo-grid img {
+  height: 65px;
+  width: 65px;
+  object-fit: contain;
+}
+
+.balanceChecker {
+  margin: 80px 173px;
+}
+
+@media (min-width: 992px) and (max-width: 1350px) {
+  .gift-card-container::before {
+    font-size: 225px;
+  }
+}
+
+@media (max-width: 992px) {
+  .balanceChecker {
+    margin: 30px 60px;
+  }
+  .amazon-card,
+  .primark-card {
+    left: 30%;
+  }
+  .tesco-card {
+    left: 20%;
+  }
+  .gift-card-container::before {
+    font-size: 175px;
+  }
+}
+
+@media (max-width: 768px) {
+  .balanceChecker {
+    margin: 30px;
+  }
+  .amazon-card,
+  .primark-card {
+    left: 25%;
+  }
+  .tesco-card {
+    left: 15%;
+  }
+  .gift-card-container::before {
+    font-size: 145px;
+  }
+}
+
+@media (max-width: 600px) {
+  .balanceChecker {
+    margin: 15px;
+  }
+  .amazon-card,
+  .primark-card {
+    left: 20%;
+  }
+  .tesco-card {
+    left: 10%;
+  }
+  .logo-grid {
+    gap: 45px;
+  }
+  .gift-card-container::before {
+    font-size: 130px;
+  }
+}
+
+@media (max-width: 450px) {
+  .amazon-card,
+  .primark-card {
+    left: 6%;
+  }
+  .tesco-card {
+    left: 2%;
+  }
+  .logo-grid {
+    gap: 45px;
+  }
+}
+
+@media (max-width: 390px) {
+  .amazon-card,
+  .primark-card {
+    left: 10%;
+  }
+  .tesco-card {
+    left: 5%;
+    /* top: 170px; */
+  }
+  .BalanceChecker-card {
+    width: 250px;
+  }
+  .logo-grid {
+    gap: 30px;
+  }
+}

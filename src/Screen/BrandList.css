@@ -1,0 +1,31 @@
+.brand-list-wrapper {
+  padding: 20px 40px;
+}
+
+.brand-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand-header h2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #2b2b3d;
+}
+
+.brand-header span {
+  color: #999;
+  font-weight: normal;
+}
+
+.sort-dropdown {
+  font-size: 14px;
+}
+
+.brand-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 20px;
+}

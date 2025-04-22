@@ -1,0 +1,306 @@
+.how-it-works-container {
+  /* max-width: 900px; */
+  margin: 0px 180px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+}
+
+.howtowork-main {
+  display: flex;
+  justify-content: center;
+}
+
+.howtowork-main-flex {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.how-it-works-container h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.intro-text {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: var(--text-color-gray);
+}
+
+.explanation {
+  background: #fff8e1;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.explanation h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: var(--light-blue);
+}
+
+.explanation p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.disclaimer {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #888;
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.step-card {
+  background-color: var(--bg-white);
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  border: 1px solid var(--text-color-gray);
+  /* box-shadow: 0 2px 6px rgba(0,0,0,0.04); */
+}
+
+.step-number {
+  background: #ffcb05;
+  /* width: 40px; */
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  padding: 0px 14px;
+}
+
+.step-content {
+  /* display: flex; */
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.step-text {
+  flex: 1;
+}
+
+.step-content img {
+  width: 150px;
+  border-radius: 10px;
+  margin-top: 0;
+}
+
+.step-content h2 {
+  font-size: 18px;
+  margin: 10px 0;
+  color: var(--dark-secondary);
+}
+
+.step-content p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  max-width: 750px;
+  color: var(--text-color-gray);
+}
+
+.step-content img {
+  width: 100%;
+  max-width: 520px;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: flex;
+}
+
+.step-image {
+  justify-content: center;
+  display: flex;
+}
+
+.rewards-section {
+  margin: 50px 180px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  max-width: 900px;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: var(--dark-secondary);
+}
+
+.rewards-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 40px;
+}
+
+.rewards-list li {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 16px;
+  color: var(--text-color-gray);
+}
+
+.repeat-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #0dc06f;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.cycle-text {
+  font-size: 16px;
+  color: var(--text-color-gray);
+}
+
+@media (max-width: 992px) {
+  .how-it-works-container,
+  .rewards-section {
+    margin: 30px 60px;
+  }
+  .section-title {
+    margin-bottom: 15px;
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  .how-it-works-container,
+  .rewards-section {
+    margin: 30px;
+  }
+  .how-it-works-container h1 {
+    font-size: 28px;
+    margin-bottom: 14px;
+  }
+  .intro-text {
+    font-size: 14px;
+    margin-bottom: 18px;
+  }
+  .explanation h3 {
+    font-size: 18px;
+  }
+  .explanation p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .step-content img {
+    max-width: 460px;
+  }
+  .step-number {
+    padding: 5px 12px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .section-title {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .how-it-works-container,
+  .rewards-section {
+    margin: 15px;
+    padding: 5px;
+  }
+
+  .step-content img {
+    width: 300px;
+  }
+
+  .step-card {
+    gap: 10px;
+    padding: 14px;
+  }
+
+  .step-content h2 {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+
+  .step-content p {
+    font-size: 12px;
+  }
+
+  .section-title {
+    margin-bottom: 0;
+  }
+  .rewards-list li {
+    font-size: 14px;
+  }
+  .step-number {
+    height: 16px;
+    padding: 4px 8px;
+  }
+  .rewards-list {
+    margin-bottom: 15px;
+  }
+  .repeat-title {
+    margin: 10px 0;
+  }
+  .cycle-text,
+  .explanation h3 {
+    font-size: 14px;
+  }
+  .explanation p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 390px) {
+  .how-it-works-container h1 {
+    font-size: 20px;
+  }
+
+  .intro-text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .step-content img {
+    width: 200px;
+  }
+
+  .step-content h2 {
+    margin: 2px 0;
+    font-size: 14px;
+  }
+
+  .step-content p {
+    font-size: 10px;
+    line-height: 15px;
+    margin: 5px 0;
+  }
+
+  .rewards-list li {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .rewards-list {
+    margin-bottom: 10px;
+  }
+  .cycle-text {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,23 @@
+[
+    {
+      "title": "Gift Cards",
+      "desc": "212+ brands",
+      "icon": "/Images/Component2.png"
+    },
+    {
+      "title": "Instant Cashback",
+      "desc": "Up to 20% back",
+      "icon": "/Images/Component1.png"
+    },
+    {
+      "title": "Daily Rewards",
+      "desc": "Win Extra Cashback",
+      "icon": "/Images/Component3.png"
+    },
+    {
+      "title": "Play Games",
+      "desc": "Earn while playing",
+      "icon": "/Images/Component4.png"
+    }
+  ]
+  

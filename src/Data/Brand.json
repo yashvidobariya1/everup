@@ -1,0 +1,52 @@
+[
+  {
+    "name": "B&M",
+    "percent": "8.00%",
+    "image": "/Images/brand1.jpg"
+  },
+  {
+    "name": "B&Q",
+    "percent": "5.75%",
+    "image": "/Images/brand2.jpg"
+  },
+  {
+    "name": "Boots Online",
+    "percent": "5.60%",
+    "image": "/Images/brand3.jpg"
+  },
+  {
+    "name": "Caffè Nero",
+    "percent": "11.00%",
+    "image": "/Images/brand4.jpg"
+  },
+  {
+    "name": "Caffè Nero",
+    "percent": "11.00%",
+    "image": "/Images/brand5.jpg"
+  },
+  {
+    "name": "B&M",
+    "percent": "8.00%",
+    "image": "/Images/brand1.jpg"
+  },
+  {
+    "name": "B&Q",
+    "percent": "5.75%",
+    "image": "/Images/brand2.jpg"
+  },
+  {
+    "name": "Boots Online",
+    "percent": "5.60%",
+    "image": "/Images/brand3.jpg"
+  },
+  {
+    "name": "Caffè Nero",
+    "percent": "11.00%",
+    "image": "/Images/brand4.jpg"
+  },
+  {
+    "name": "Caffè Nero",
+    "percent": "11.00%",
+    "image": "/Images/brand5.jpg"
+  }
+]

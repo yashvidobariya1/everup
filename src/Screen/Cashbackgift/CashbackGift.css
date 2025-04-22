@@ -1,0 +1,159 @@
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 2px solid #00e08f;
+  border-radius: 12px;
+  padding: 10px 15px;
+  width: 500px;
+  margin: 50px auto;
+  background-color: #fff;
+}
+
+.search-icon {
+  font-size: 20px;
+  color: #a0a0b2;
+  margin-right: 10px;
+}
+
+.cashbackgrift-search-div{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  flex: 1;
+  color: #333;
+  background: transparent;
+}
+
+.search-input::placeholder {
+  color: #a0a0b2;
+}
+
+.categories-popular-brands-container {
+  padding: 0px 160px;
+  text-align: center;
+  /* background-color: var(--button-bg); */
+}
+
+.categories-popular-brands-container h2 {
+  font-size: 30px;
+}
+
+.categories-popular-brands-container-app {
+  color: white;
+}
+
+.categories-popular-brands-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin:20px 0;
+  text-align: left;
+  color: var(--dark-secondary);
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  /* justify-content: center; */
+}
+
+.fashion-card {
+  background: #ffffff;
+  padding: 14px;
+  border-radius: 8px;
+  text-align: center;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.availability {
+  font-size: 14px;
+  color:var(--text-color-gray);
+  margin: 10px 0;
+}
+
+.cashback-logo {
+  width: 80px;
+  height: auto;
+  /* margin-bottom: 10px; */
+}
+
+.offer {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--button-bg);
+  margin: 10px 0;
+}
+
+
+@media(max-width:992px){
+  .categories-popular-brands-container{
+    padding: 30px 60px;
+  }
+  .search-container{
+    margin: 30px 60px;
+    width: 300px;
+  }
+  .grid{
+    justify-content: center;
+  }
+  .categories-popular-brands-heading{
+    /* margin-left: 100px; */
+    text-align: center;
+  }
+}
+
+@media(max-width:768px){
+  .categories-popular-brands-container{
+    padding: 30px;
+  }
+
+  .grid{
+    justify-content: center;
+  }
+  .fashion-card{
+    width: 190px;
+  }
+  .categories-popular-brands-heading{
+    text-align: center;
+    margin: 20px 0;
+  }
+  .cashback-logo{
+    width: 60px;
+  }
+  .heading{
+    font-size: 26px;
+  }
+}
+
+@media(max-width:600px){
+  .fashion-card{
+    width: 200px;
+  }
+}
+
+@media(max-width:390px){
+  .categories-popular-brands-container{
+    padding: 15px;
+  }
+  .categories-popular-brands-container h2{
+    font-size: 24px;
+  }
+  .categories-popular-brands-heading{
+    text-align: center;
+    margin: 10px 0;
+  }
+  .heading{
+    font-size: 24px;
+  }
+    .fashion-card{
+      width: 134px;
+    }
+
+}

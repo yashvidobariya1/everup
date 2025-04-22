@@ -9,7 +9,7 @@
 }
 
 .count {
-  color: #666;
+  color: var(--label-gray);
   font-weight: normal;
 }
 
@@ -22,7 +22,7 @@
 
 .card {
   width: 230px;
-  background: white;
+  background: var(--bg-white);
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -46,16 +46,12 @@
 }
 
 .tag {
-  background: #00c28b;
-  color: white;
+  background: var(--button-bg);
+  color: var(--bg-white);
   padding: 3px 8px;
   font-size: 12px;
   border-radius: 4px;
 }
-
-/* .card-content {
-  padding: 15px 0 0;
-} */
 
 .card-content h3 {
   font-size: 16px;
@@ -65,14 +61,14 @@
 .cashback {
   font-size: 16px;
   font-weight: bold;
-  color: #00c28b;
+  color: var(--button-bg);
   padding: 10px 0;
   margin: 0;
-  background-color: rgb(238, 237, 237);
+  background-color: var(--bg-white);
 }
 
 .coins {
-  color: #ffaf60;
+  color: var(--highlight-color);
   font-weight: normal;
   margin-left: 5px;
 }

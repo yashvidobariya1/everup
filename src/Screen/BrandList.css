@@ -15,7 +15,7 @@
 }
 
 .brand-header span {
-  color: #999;
+  color: var(--text-color-gray);
   font-weight: normal;
 }
 

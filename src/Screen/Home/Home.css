@@ -59,7 +59,7 @@
 .promo-left p {
   font-size: 20px;
   margin: 30px 0;
-  color: #4b5563;
+  color: var(--label-gray);
   line-height: 28px;
 }
 
@@ -179,7 +179,7 @@
 }
 
 .feature-tag .icon {
-  background-color: white;
+  background-color: var(--bg-white);
   border-radius: 100%;
   padding: 8px;
   width: 20px;
@@ -209,7 +209,7 @@
 }
 
 .math-link {
-  color: #14ff9d;
+  color: var(--button-bg);
   font-weight: 500;
 }
 
@@ -219,7 +219,7 @@
 }
 
 .calculator-card {
-  background-color: #1a1f3d;
+  background-color: var(--card-box);
   padding: 25px;
   border-radius: 12px;
   margin-top: 30px;
@@ -235,16 +235,16 @@
   flex: 1;
   padding: 12px;
   margin: 0 5px;
-  background-color: #2a3155;
+  background-color: var(--card-box);
   border: none;
-  color: #fff;
+  color: var(--bg-white);
   border-radius: 8px;
   cursor: pointer;
   font-size: 14px;
 }
 
 .savings-tab:hover {
-  background-color: #ffce56;
+  background-color: var(--highlight-color);
   color: #000;
 }
 
@@ -276,7 +276,7 @@
 }
 
 .savings-link {
-  color: #09c881;
+  color: var(--button-bg);
   font-weight: 500;
   font-size: 20px;
   margin: 18px 0;
@@ -317,7 +317,7 @@
   margin: 0 5px;
   background-color: #2a3155;
   border: none;
-  color: #fff;
+  color: var(--bg-white);
   border-radius: 8px;
   cursor: pointer;
   font-size: 14px;
@@ -335,8 +335,8 @@
 }
 
 .savings-tab.active {
-  background-color: #ffce56;
-  color: #000;
+  background-color: var(--highlight-color);
+  color: var(--dark-secondary);
 }
 
 .savings-slider {
@@ -369,7 +369,7 @@
 }
 
 .savings-earnings-value {
-  color: #09c881;
+  color: var(--button-bg);
   font-size: 32px;
   margin: 10px 0;
 }
@@ -414,7 +414,7 @@
 .winners-wrapper {
   padding: 40px 20px;
   text-align: center;
-  color: #ffffff;
+  color: var(--bg-white);
 }
 
 .category-slider {
@@ -501,8 +501,8 @@
   appearance: none;
   width: 20px;
   height: 20px;
-  background: #ffd700;
-  border: 3px solid #fcfcfc;
+  background: var(--highlight-color);
+  border: 3px solid var(--bg-white);
   border-radius: 50%;
   cursor: pointer;
   transition: 0.3s ease;
@@ -512,7 +512,7 @@
 .savings-range::-moz-range-thumb {
   width: 20px;
   height: 20px;
-  background: #ffd700;
+  background: var(--highlight-color);
   border: 3px solid #333;
   border-radius: 50%;
   cursor: pointer;
@@ -535,7 +535,7 @@
 /* Active state */
 .savings-range:active::-webkit-slider-thumb {
   transform: scale(1.2);
-  background: #ffb700;
+  background: var(--highlight-color);
 }
 
 @media (max-width: 1400px) {

@@ -55,7 +55,7 @@
 .disclaimer {
   margin-top: 10px;
   font-size: 14px;
-  color: #888;
+  color: var(--label-gray);
 }
 
 .steps {
@@ -76,7 +76,7 @@
 }
 
 .step-number {
-  background: #ffcb05;
+  background: var(--highlight-colo);
   /* width: 40px; */
   height: 40px;
   font-size: 20px;
@@ -162,7 +162,7 @@
 .repeat-title {
   font-size: 24px;
   font-weight: 700;
-  color: #0dc06f;
+  color: var(--button-bg);
   margin-bottom: 12px;
   text-align: center;
 }

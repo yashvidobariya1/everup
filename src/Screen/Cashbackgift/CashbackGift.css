@@ -1,21 +1,21 @@
 .search-container {
   display: flex;
   align-items: center;
-  border: 2px solid #00e08f;
+  border: 2px solid var(--button-bg);
   border-radius: 12px;
   padding: 10px 15px;
   width: 500px;
   margin: 50px auto;
-  background-color: #fff;
+  background-color: var(--bg-white);
 }
 
 .search-icon {
   font-size: 20px;
-  color: #a0a0b2;
+  color: var(--text-color-gray);
   margin-right: 10px;
 }
 
-.cashbackgrift-search-div{
+.cashbackgrift-search-div {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -26,12 +26,12 @@
   outline: none;
   font-size: 16px;
   flex: 1;
-  color: #333;
+  color: var(--box-border-gray);
   background: transparent;
 }
 
 .search-input::placeholder {
-  color: #a0a0b2;
+  color: var(--text-color-gray);
 }
 
 .categories-popular-brands-container {
@@ -45,13 +45,13 @@
 }
 
 .categories-popular-brands-container-app {
-  color: white;
+  color: var(--bg-white);
 }
 
 .categories-popular-brands-heading {
   font-size: 24px;
   font-weight: bold;
-  margin:20px 0;
+  margin: 20px 0;
   text-align: left;
   color: var(--dark-secondary);
 }
@@ -64,7 +64,7 @@
 }
 
 .fashion-card {
-  background: #ffffff;
+  background: var(--bg-white);
   padding: 14px;
   border-radius: 8px;
   text-align: center;
@@ -74,7 +74,7 @@
 
 .availability {
   font-size: 14px;
-  color:var(--text-color-gray);
+  color: var(--text-color-gray);
   margin: 10px 0;
 }
 
@@ -91,69 +91,67 @@
   margin: 10px 0;
 }
 
-
-@media(max-width:992px){
-  .categories-popular-brands-container{
+@media (max-width: 992px) {
+  .categories-popular-brands-container {
     padding: 30px 60px;
   }
-  .search-container{
+  .search-container {
     margin: 30px 60px;
     width: 300px;
   }
-  .grid{
+  .grid {
     justify-content: center;
   }
-  .categories-popular-brands-heading{
+  .categories-popular-brands-heading {
     /* margin-left: 100px; */
     text-align: center;
   }
 }
 
-@media(max-width:768px){
-  .categories-popular-brands-container{
+@media (max-width: 768px) {
+  .categories-popular-brands-container {
     padding: 30px;
   }
 
-  .grid{
+  .grid {
     justify-content: center;
   }
-  .fashion-card{
+  .fashion-card {
     width: 190px;
   }
-  .categories-popular-brands-heading{
+  .categories-popular-brands-heading {
     text-align: center;
     margin: 20px 0;
   }
-  .cashback-logo{
+  .cashback-logo {
     width: 60px;
   }
-  .heading{
+  .heading {
     font-size: 26px;
   }
 }
 
-@media(max-width:600px){
-  .fashion-card{
+@media (max-width: 600px) {
+  .fashion-card {
     width: 200px;
   }
 }
 
-@media(max-width:390px){
-  .categories-popular-brands-container{
+@media (max-width: 390px) {
+  .categories-popular-brands-container {
     padding: 15px;
   }
-  .categories-popular-brands-container h2{
+  .categories-popular-brands-container h2 {
     font-size: 24px;
   }
-  .categories-popular-brands-heading{
+  .categories-popular-brands-heading {
     text-align: center;
     margin: 10px 0;
   }
-  .heading{
+  .heading {
     font-size: 24px;
   }
-    .fashion-card{
-      width: 134px;
-    }
-
+  .fashion-card {
+    width: 134px;
+  }
 }

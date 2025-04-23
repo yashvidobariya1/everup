@@ -18,13 +18,13 @@
   top: 0;
   left: 0;
   width: 100%;
-  background: var(--background-color);
+  background: var(--bg-white);
   z-index: 10;
 }
 
 .header-getapp {
   background-color: var(--button-bg);
-  color: var(--text-white);
+  color: var(--bg-white);
   height: max-content;
   border: none;
   padding: 10px;
@@ -81,7 +81,7 @@
 }
 
 .logodiv a {
-  color: var(--text-white) !important;
+  color: var(--bg-white) !important;
 }
 .home-logo img {
   width: 120px;
@@ -271,7 +271,7 @@
 
   .career-work h1 {
     font-size: 32px;
-    color: var(--font-color);
+    color: var(--bg-white);
   }
 
   .about-section {
@@ -496,7 +496,7 @@
     margin-top: 60px;
     /* min-height: 100vh; */
     transition: 2s ease;
-    background-color: var(--text-white);
+    background-color: var(--bg-white);
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
     padding: 20px;
     align-items: first baseline;
